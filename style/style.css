@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#000000 ;
+    color: aliceblue;
+}
+
+.container-player{
+    width: 18rem;
+    height: 25rem;
+    border-radius: 10px;
+    background-color:#121212 ;
+    box-shadow: 4px 4px 5px #1F1F1F;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+}
+
+.container-player > h1{
+    font-size: 2rem;
+    color: #3ADF74;
+}
+
+.container-album{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content:space-around;
+    
+}
+.container-album > img{
+    width: 70%;
+    height: 70%;
+    border-radius: 50%;
+    
+}
+
+.container-album > .controls{
+    width: 100%;
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.controls > audio{
+    width: 100%;
+    height: 2rem;
+    margin-top: 1rem;
+}
+
+.player_controls{
+    width: 100%;
+    margin-top: 1rem;
+    text-align: center;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+.player_controls > i:hover{
+    color: #3ADF74;
+}
