@@ -31,6 +31,9 @@ body{
     color: #3ADF74;
 }
 
+.player_song{
+    text-align: center;
+}
 .container-album{
     width: 100%;
     display: flex;
@@ -40,8 +43,8 @@ body{
     
 }
 .container-album > img{
-    width: 70%;
-    height: 70%;
+    width: 4cm;
+    height: 4cm;
     border-radius: 50%;
     
 }
@@ -71,4 +74,36 @@ body{
 
 .player_controls > i:hover{
     color: #3ADF74;
+}
+.song-slider{
+    width: 100%;
+    position: relative;
+}
+.progress{
+    width: 100%;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    margin: 1rem 0;
+}
+progress {
+    
+    width: 90%;
+    height: 2px;
+    appearance: none; 
+    display:flex; 
+}
+#time{
+    margin-left: 10px;
+}
+progress::-webkit-progress-bar {
+    background-color: #e0e0e0;  
+}
+
+progress::-webkit-progress-value {
+    background-color: #468266;  
+}
+
+progress::-moz-progress-bar {
+    background-color: #468266;  /
 }
